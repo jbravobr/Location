@@ -26,12 +26,5 @@ namespace Location.APP.Droid
         }
     }
 
-    public class AndroidInitializer : IPlatformInitializer
-    {
-        public void RegisterTypes(IUnityContainer container)
-        {
-
-        }
-    }
 }
 
