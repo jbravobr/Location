@@ -3,14 +3,25 @@
     x:Class="Location.APP.Views.MainPage"
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:barcode="clr-namespace:Syncfusion.SfBarcode.XForms;assembly=Syncfusion.SfBarcode.XForms"
     xmlns:prism="clr-namespace:Prism.Mvvm;assembly=Prism.Forms"
-    xmlns:syncfusion="clr-namespace:Syncfusion.SfBarcode.XForms;assembly=Syncfusion.SfBarcode.XForms"
     Title="MainPage"
     prism:ViewModelLocator.AutowireViewModel="True">
     <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
         <Label Text="{Binding Title}" />
 
-        <syncfusion:SfBarcode Symbology="QRCode" Text="Teste" />
+        <!--<barcode:SfBarcode
+            x:Name="barcode"
+            Grid.Row="2"
+            BackgroundColor="Gray"
+            Symbology="QRCode"
+            Text="http://www.wikipedia.org">
+            <barcode:SfBarcode.SymbologySettings>
+                <barcode:QRBarcodeSettings x:Name="settings" XDimension="10" />
+            </barcode:SfBarcode.SymbologySettings>
+        </barcode:SfBarcode>-->
+        <!--<Label x:Name="lblValor" Text="{Binding Valor}" />
+        <Button Command="{Binding Scanear}" Text="Scanear" />-->
 
     </StackLayout>
 </ContentPage>
