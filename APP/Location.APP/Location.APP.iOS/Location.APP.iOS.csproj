@@ -102,6 +102,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Location.APP\Location.APP.csproj">
       <Name>Location.APP</Name>
+      <Project>{84CD9128-6644-4AE9-AA83-202D3FFA0BC9}</Project>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
@@ -239,6 +240,12 @@
     <Reference Include="ZXingNetMobile, Version=2.1.47.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\..\..\packages\ZXing.Net.Mobile.2.1.47\lib\Xamarin.iOS10\ZXingNetMobile.dll</HintPath>
       <Private>True</Private>
+    </Reference>
+    <Reference Include="Plugin.Geolocator.Abstractions">
+      <HintPath>..\..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Geolocator">
+      <HintPath>..\..\..\packages\Xam.Plugin.Geolocator.3.0.4\lib\Xamarin.iOS10\Plugin.Geolocator.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

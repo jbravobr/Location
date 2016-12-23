@@ -11,7 +11,7 @@
     <StackLayout HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
         <Label Text="{Binding Title}" />
 
-        <maps:Map HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" />
+        <maps:Map HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" x:Name="map" />
 
         <!--<barcode:SfBarcode
             x:Name="barcode"
