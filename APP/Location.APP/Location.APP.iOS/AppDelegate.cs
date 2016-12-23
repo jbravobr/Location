@@ -25,19 +25,14 @@ namespace Location.APP.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             ZXing.Net.Mobile.Forms.iOS.Platform.Init();
+            Xamarin.FormsGoogleMaps.Init("AIzaSyDumMNNp-V0xvt71M6jQmcJvm8hdFTKVXc");
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App(new iOSInitializer()));
+            LoadApplication(new App());
 
             return base.FinishedLaunching(app, options);
         }
     }
 
-    public class iOSInitializer : IPlatformInitializer
-    {
-        public void RegisterTypes(IUnityContainer container)
-        {
 
-        }
-    }
 
 }

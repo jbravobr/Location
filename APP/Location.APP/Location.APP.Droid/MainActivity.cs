@@ -19,7 +19,7 @@ namespace Location.APP.Droid
             base.OnCreate(bundle);
             MobileBarcodeScanner.Initialize(Application);
             ZXing.Net.Mobile.Forms.Android.Platform.Init();
-
+            Xamarin.FormsGoogleMaps.Init(this, bundle);
             global::Xamarin.Forms.Forms.Init(this, bundle);
             try
             {
