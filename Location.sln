@@ -126,6 +126,7 @@ Global
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.AppStore|iPhoneSimulator.ActiveCfg = AppStore|iPhoneSimulator
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.AppStore|iPhoneSimulator.Build.0 = AppStore|iPhoneSimulator
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|Any CPU.ActiveCfg = Debug|iPhone
+		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|Any CPU.Build.0 = Debug|iPhone
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|iPhone.Build.0 = Debug|iPhone
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
@@ -135,7 +136,6 @@ Global
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Release|iPhone.Build.0 = Release|iPhone
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
-		{EF19C377-FC6B-488B-9B53-261DD6B703C6}.Debug|Any CPU.Build.0 = Debug|iPhone
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

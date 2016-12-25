@@ -15,7 +15,7 @@ namespace Location.APP
 
             
 
-            NavigationService.NavigateAsync("MainPage?title=Hello%20from%20Xamarin.Forms");
+            NavigationService.NavigateAsync("MasterPage");
         }
 
         protected override void RegisterTypes()
@@ -23,6 +23,8 @@ namespace Location.APP
             Container.RegisterTypeForNavigation<MainPage>();
             Container.RegisterTypeForNavigation<CadastroPage>();
             Container.RegisterTypeForNavigation<LocalizacaoPage>();
+            Container.RegisterTypeForNavigation<MenuPage>();
+            Container.RegisterTypeForNavigation<MasterPage>();
         }
     }
 }
