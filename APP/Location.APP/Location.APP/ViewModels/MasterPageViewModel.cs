@@ -10,12 +10,12 @@ namespace Location.APP.ViewModels
     {
         public void OnNavigatedFrom(NavigationParameters parameters)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
 
         public void OnNavigatedTo(NavigationParameters parameters)
         {
-            throw new NotImplementedException();
+            //throw new NotImplementedException();
         }
     }
 }

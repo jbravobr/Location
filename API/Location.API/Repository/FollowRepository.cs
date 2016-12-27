@@ -31,7 +31,7 @@ namespace Location.API.Repository
 
         public Task<List<Follow>> Get()
         {
-            
+            throw new NotImplementedException();
         }
 
         public Task<Follow> Get(Guid id)

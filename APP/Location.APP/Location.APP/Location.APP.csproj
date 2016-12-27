@@ -43,10 +43,10 @@
     <Compile Include="ViewModels\MainPageViewModel.cs" />
     <Compile Include="ViewModels\MasterPageViewModel.cs" />
     <Compile Include="ViewModels\MenuPageViewModel.cs" />
-    <Compile Include="Model\Views\MasterPage.xaml.cs">
+    <Compile Include="Views\MasterPage.xaml.cs">
       <DependentUpon>MasterPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Views\MenuPage.xaml.cs">
+    <Compile Include="Views\MenuPage.xaml.cs">
       <DependentUpon>MenuPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -60,17 +60,17 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Model\Views\MainPage.xaml">
+    <EmbeddedResource Include="Views\MainPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Model\Views\CadastroPage.xaml.cs">
+    <Compile Include="Views\CadastroPage.xaml.cs">
       <DependentUpon>CadastroPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Views\LocalizacaoPage.xaml.cs">
+    <Compile Include="Views\LocalizacaoPage.xaml.cs">
       <DependentUpon>LocalizacaoPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Model\Views\MainPage.xaml.cs">
+    <Compile Include="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -173,32 +173,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Model\Views\app.config" />
+    <None Include="Views\app.config" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="FodyWeavers.xml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Model\Views\CadastroPage.xaml">
+    <EmbeddedResource Include="Views\CadastroPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Model\Views\LocalizacaoPage.xaml">
+    <EmbeddedResource Include="Views\LocalizacaoPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Model\Views\MasterPage.xaml">
+    <EmbeddedResource Include="Views\MasterPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Model\Views\MenuPage.xaml">
+    <EmbeddedResource Include="Views\MenuPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>

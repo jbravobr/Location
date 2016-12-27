@@ -13,24 +13,24 @@ namespace Location.APP.Droid
     {
         protected override void OnCreate(Bundle bundle)
         {
-            TabLayoutResource = Resource.Layout.tabs;
-            ToolbarResource = Resource.Layout.toolbar;
-
-            base.OnCreate(bundle);
-            MobileBarcodeScanner.Initialize(Application);
-            ZXing.Net.Mobile.Forms.Android.Platform.Init();
-            Xamarin.FormsGoogleMaps.Init(this, bundle);
-            global::Xamarin.Forms.Forms.Init(this, bundle);
             try
             {
+                TabLayoutResource = Resource.Layout.tabs;
+                ToolbarResource = Resource.Layout.toolbar;
+
+                base.OnCreate(bundle);
+                MobileBarcodeScanner.Initialize(Application);
+                ZXing.Net.Mobile.Forms.Android.Platform.Init();
+                Xamarin.FormsGoogleMaps.Init(this, bundle);
+                global::Xamarin.Forms.Forms.Init(this, bundle);
+
                 LoadApplication(new App());
             }
             catch (Exception ex)
             {
-
-                throw ex;
+                //throw ex;
             }
-            
+
         }
 
         public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Permission[] grantResults)

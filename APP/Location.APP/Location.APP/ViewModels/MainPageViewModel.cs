@@ -22,29 +22,29 @@ namespace Location.APP.ViewModels
 
         }
 
-        public Command Scanear
-        {
-            get
-            {
-                return new Command(async () =>
-                {
-                    try
-                    {                        
+        //public Command Scanear
+        //{
+        //    get
+        //    {
+        //        return new Command(async () =>
+        //        {
+        //            try
+        //            {                        
 
-                        var scanner = new ZXing.Mobile.MobileBarcodeScanner();
+        //                var scanner = new ZXing.Mobile.MobileBarcodeScanner();
 
-                        var result = await scanner.Scan();
-                        if (result!=null)             
-                            Valor = result.Text;
+        //                var result = await scanner.Scan();
+        //                if (result!=null)             
+        //                    Valor = result.Text;
              
-                    }
-                    catch (System.Exception ex)
-                    {
-                        throw ex;
-                    }
-                });
-            }
-        }
+        //            }
+        //            catch (System.Exception ex)
+        //            {
+        //                throw ex;
+        //            }
+        //        });
+        //    }
+        //}
 
         public void OnNavigatedFrom(NavigationParameters parameters)
         {
